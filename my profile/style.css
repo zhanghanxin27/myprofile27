@@ -1,0 +1,73 @@
+body{
+	background-color: rgb(245, 245, 245);
+	color: rgb(30, 30, 30);
+	font-family: fantasy;
+	font-size: 20px;
+}
+
+h1 {
+	color: #374a8c;
+    font-family: emoji;
+    font-weight: 400;
+    letter-spacing: 17px;
+    font-size: 45px;
+    text-transform: sans-serif;
+}
+
+h2 {
+	color: rgb(178,6,0);
+	font-siez: 24px;
+	font-weight: lighter;
+}
+a{
+	text-decoration: sans-serif;
+	color: darkblue ;
+}
+a:hover{
+	color:  DARKBLEU;
+}
+
+
+
+.container {
+    width: 900px;
+    margin: 40px auto;
+}
+.card-design {
+	background-color:rgb(245, 245, 245) ;
+	padding: 60px;
+	box-shadow: 0px 10px 30px ;
+	border-radius: 4px;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.btn-bleu{
+	padding:15px 20px ;
+	border-radius: 4px;
+}
+
+.btn-bleu:hover{
+	background-color: black;
+	color: white;
+}
+
+@media(max-width: 1000px){
+	.container{
+		width: 800px;
+	}
+}
+
+@media(max-width: 820px){
+	.container{
+		width: 600px;
+	}
+}
+
+@media(max-width: 620px){
+	.container{
+		width: 400px;
+	}
+}
